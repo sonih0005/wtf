@@ -1,0 +1,251 @@
+@font-face {
+    font-family: harshit;
+    src: url(/Heading-Now-Variable.ttf);
+}
+body
+{
+    overflow-x: hidden;
+}
+/* -------navigation bar------------------ */
+header .navbar .container-fluid
+{
+    padding: 0 50px;
+}
+header .navbar .container-fluid .navbar-brand>img
+{
+    width: 22px;
+}
+header .navbar .container-fluid .logo
+{
+    margin: 0 auto;
+}
+header .navbar .container-fluid .logo a>img
+{
+    width: 40px;
+}
+header .navbar .container-fluid .icons a>i
+{
+    color: white;
+}
+/* -------------------------------- */
+/* -----banner----------- */
+.banner .row .col-sm-12 .poster
+{
+    background-image: url(/asset\ 13.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner .row .col-sm-12 .poster>button
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 11px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+/* ------------------------ */
+.col-sm-3
+{
+    margin-bottom: 4%;
+}
+.featured .container .featured-heading h2
+{
+    font-size: 3.5rem;
+    font-stretch: 342%;
+    font-weight: normal;
+    word-spacing: 10px;
+    font-family: harshit !important;
+    padding-bottom: 20px;
+}
+.featured .container .row .col-sm-3 .cloth-1
+{
+    background-image: url(/asset\ 15.png);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.4rem;
+    transition: background-image 0.5s ease;
+    
+}
+.featured .container .row .col-sm-3 .cloth-1:hover
+{
+    background-image: url(/asset\ 16.png);
+    
+}
+
+.featured .container .row .col-sm-3 .cloths>button
+{
+    position: relative;
+    top: 86%;
+    padding: 7px 18px;
+    left: 6%;
+    border-radius: 20px;
+}
+.featured .container .row .col-sm-3 a
+{
+    color: black;
+    text-decoration: none;
+    font-family: harshit;
+    font-size: 1.3rem;
+    font-stretch: 324%;
+    font-weight: 400;
+    margin-left: 13px;
+    
+}
+.featured .container .row .col-sm-3 .price
+{
+    font-size: 16px;
+    color: grey;
+    text-decoration: line-through;
+}
+.featured .container .row .col-sm-3 a:hover
+{
+    border-bottom: 1px solid black;
+}
+.featured .container .row .col-sm-3 .cloth-2
+{
+    background-image: url(/asset\ 17.png);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.4rem;
+    transition: background-image 0.5s ease;
+}
+.featured .container .row .col-sm-3 .cloth-2:hover
+{
+    background-image: url(/asset\ 18.png);
+}
+.featured .container .row .col-sm-3 .cloth-3
+{
+    background-image: url(/asset\ 19.png);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.4rem;
+    transition: background-image 0.5s ease;
+}
+.featured .container .row .col-sm-3 .cloth-3:hover
+{
+    background-image: url(/asset\ 20.png);
+}
+.featured .container .row .col-sm-3 .cloth-4
+{
+    background-image: url(/asset\ 21.png);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.4rem;
+    transition: background-image 0.5s ease;
+}
+.featured .container .row .col-sm-3 .cloth-4:hover
+{
+    background-image: url(/asset\ 22.png);
+}
+/* -------second featured row------------- */
+.featured .container .second-featured-row .col-sm-3 .cloth-1
+{
+    background-image: url(/asset\ 23.png);
+    
+}
+.featured .container .second-featured-row .col-sm-3 .cloth-1:hover
+{
+    background-image: url(/asset\ 24.png);
+}
+.featured .container .second-featured-row .col-sm-3 .cloth-2
+{
+    background-image: url(/asset\ 25.png);
+}
+.featured .container .second-featured-row .col-sm-3 .cloth-2:hover
+{
+    background-image: url(/asset\ 26.png);
+}
+.featured .container .second-featured-row .col-sm-3 .cloth-3 
+{
+    background-image: url(/asset\ 27.png);
+}
+.featured .container .second-featured-row .col-sm-3 .cloth-3:hover
+{
+    background-image: url(/asset\ 28.png);
+}
+.featured .container .second-featured-row .col-sm-3 .cloth-4
+{
+    background-image: url(/asset\ 29.png);
+}
+.featured .container .second-featured-row .col-sm-3 .cloth-4:hover
+{
+    background-image: url(/asset\ 30.png);
+}
+.featured .container .view-btn
+{
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+/* ------------shirts--------------- */
+
+
+/* ------------------------------ */
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: 'harshit';
+    font-stretch: 300%;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 17s linear infinite;
+}
+@keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+  /* -------------------------------------- */
+  .big-bg
+  {
+    background-image: url(/asset\ 35.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.big-bg .bg-text
+  {
+    margin-block: 10%;
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 40px 50px;
+  }
+  .bg-text h4
+  {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .bg-text p
+  {
+    padding-block: 11px;
+    color: grey;
+  }
+  /* ------------------ */
+ 
