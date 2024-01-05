@@ -1,224 +1,470 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WHAT THE FLEX</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://wtflex.in/cdn/shop/files/logo_wtf.png?crop=center&height=32&v=1655663734&width=32" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/7024ce110d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://wtflex.in/cdn/shop/files/logo_wtf.png?crop=center&height=32&v=1655663734&width=32"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/7024ce110d.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Latest compiled and minified CSS -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="offcanvas offcanvas-top" id="demo" style="height: 20vh;">
+      <div class="offcanvas-header">
+         <!-- <i class="fa-solid fa-xmark" class="btn-close" data-bs-dismiss="offcanvas"></i> -->
+         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button> 
+      </div>
+      <div class="offcanvas-body">
+       <input type="search" placeholder="search">
+      </div>
+  </div>
+
     <header>
-        <nav class="navbar navbar-expand-sm fixed-top bg-dark ">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand ">
-                    <img class="img-fluid " src="/asset 53.svg" alt="#">
-                </a>
+      <nav class="navbar navbar-expand-sm fixed-top bg-dark">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">
+            <img class="img-fluid" src="/asset 53.svg" alt="#" />
+          </a>
 
-                <div class="logo d-block  " >
-                    <a href="#"><img  src="/asset 12.png" alt="#"></a> 
-                </div>
+          <div class="logo d-block">
+            <a href="#"><img src="/asset 12.png" alt="#" /></a>
+          </div>
 
-                <div class="icons text-white ">
-                    <a href="#"><i class="fa-solid fa-magnifying-glass" style="padding-right: 15px;"></i></a>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div>
-            </div>
-
-        </nav>
+          <div class="icons text-white" data-bs-toggle="offcanvas" data-bs-target="#demo">
+            <a href="#" style="text-decoration: none;">
+              <i class="fa-solid fa-magnifying-glass" style="padding-right: 15px"></i>
+          </a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <section class="banner">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="poster">
-                    <button type="button" class="btn btn-light ">Shop All</button>
-                </div>
-                <!-- <button type="button" class="btn btn-light ">Shop All</button> -->
-            </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="poster position-relative">
+            <button type="button" class="btn btn-light">Shop All</button>
+          </div>
+          <!-- <button type="button" class="btn btn-light ">Shop All</button> -->
         </div>
+      </div>
     </section>
 
-
-    <section class="featured my-5 ">
-        <div class="container">
-            <div class="featured-heading">
-                <h2>Featured Products</h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="cloth-1 cloths">
-                        <button type="button" class="btn btn-light">sale</button>
-                    </div>
-                  <a href="#">OUTBREAK Heavyweight T-shirt</a>
-                  <br>
-                  <a class="price" href="#">Rs. 1499.00 </a>
-                  <a href="#">Rs. 1199.00</a>
-                    
-                </div>
-                <div class="col-sm-3">
-                    <div class="cloth-2 cloths">
-                        <button type="button" class="btn btn-light">sale</button>
-                    </div>
-                    <a href="#">AESTHETIC AWARENESS VARSITY JACKETx</a>
-                  <br>
-                  <a class="price" href="#">Rs. 1499.00 </a>
-                  <a href="#">Rs. 1199.00</a>
-                </div>
-                <div class="col-sm-3">
-                    <div class="cloth-3 cloths">
-                        <button type="button" class="btn btn-light">sale</button>
-                    </div>
-                    <a href="#">TRAVIS Oversized T-Shirt</a>
-                  <br>
-                  <a class="price" href="#">Rs. 1499.00 </a>
-                  <a href="#">Rs. 1199.00</a>
-                </div>
-                <div class="col-sm-3">
-                    <div class="cloth-4 cloths">
-                        <button type="button" class="btn btn-light">sale</button>
-                    </div>
-                    <a href="#">STRANGE PLEASURES Unisex Cargo</a>
-                  <br>
-                  <a class="price" href="#">Rs. 1499.00 </a>
-                  <a href="#">Rs. 1199.00</a> 
-                </div>
-            </div>
-
-            <div class="row second-featured-row">
-                <div class="col-sm-3">
-                    <div class="cloth-1 cloths">
-                        <button type="button" class="btn btn-light">sale</button>
-                    </div>
-                  <a href="#">OUTBREAK Heavyweight T-shirt</a>
-                  <br>
-                  <a class="price" href="#">Rs. 1499.00 </a>
-                  <a href="#">Rs. 1199.00</a>
-                    
-                </div>
-                <div class="col-sm-3">
-                    <div class="cloth-2 cloths">
-                        <button type="button" class="btn btn-light">sale</button>
-                    </div>
-                    <a href="#">OUTBREAK Heavyweight T-shirt</a>
-                  <br>
-                  <a class="price" href="#">Rs. 1499.00 </a>
-                  <a href="#">Rs. 1199.00</a>
-                </div>
-                <div class="col-sm-3">
-                    <div class="cloth-3 cloths">
-                        <button type="button" class="btn btn-light">sale</button>
-                    </div>
-                    <a href="#">OUTBREAK Heavyweight T-shirt</a>
-                  <br>
-                  <a class="price" href="#">Rs. 1499.00 </a>
-                  <a href="#">Rs. 1199.00</a>
-                </div>
-                <div class="col-sm-3">
-                    <div class="cloth-4 cloths">
-                        <button type="button" class="btn btn-light">sale</button>
-                    </div>
-                    <a href="#">OUTBREAK Heavyweight T-shirt</a>
-                  <br>
-                  <a class="price" href="#">Rs. 1499.00 </a>
-                  <a href="#">Rs. 1199.00</a> 
-                </div>
-            </div>
-
-            <button type="button" class="btn btn-dark view-btn">View all</button>
-            
-            
+    <section class="featured my-5">
+      <div class="container">
+        <div class="featured-heading">
+          <h2>Featured Products</h2>
         </div>
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="cloth-1 cloths">
+              <button type="button" class="btn btn-light">sale</button>
+            </div>
+            <a href="#">OUTBREAK Heavyweight T-shirt</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+          <div class="col-sm-3">
+            <div class="cloth-2 cloths">
+              <button type="button" class="btn btn-light">sale</button>
+            </div>
+            <a href="#">AESTHETIC AWARENESS VARSITY JACKETx</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+          <div class="col-sm-3">
+            <div class="cloth-3 cloths">
+              <button type="button" class="btn btn-light">sale</button>
+            </div>
+            <a href="#">TRAVIS Oversized T-Shirt</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+          <div class="col-sm-3">
+            <div class="cloth-4 cloths">
+              <button type="button" class="btn btn-light">sale</button>
+            </div>
+            <a href="#">STRANGE PLEASURES Unisex Cargo</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+        </div>
+
+        <div class="row second-featured-row">
+          <div class="col-sm-3">
+            <div class="cloth-1 cloths">
+              <button type="button" class="btn btn-light">sale</button>
+            </div>
+            <a href="#">OUTBREAK Heavyweight T-shirt</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+          <div class="col-sm-3">
+            <div class="cloth-2 cloths">
+              <button type="button" class="btn btn-light">sale</button>
+            </div>
+            <a href="#">OUTBREAK Heavyweight T-shirt</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+          <div class="col-sm-3">
+            <div class="cloth-3 cloths">
+              <button type="button" class="btn btn-light">sale</button>
+            </div>
+            <a href="#">OUTBREAK Heavyweight T-shirt</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+          <div class="col-sm-3">
+            <div class="cloth-4 cloths">
+              <button type="button" class="btn btn-light">sale</button>
+            </div>
+            <a href="#">OUTBREAK Heavyweight T-shirt</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-dark view-btn">View all</button>
+      </div>
     </section>
 
     <!-- <marquee> right to lef This text will scroll from right to lef</marquee> -->
-    <p class="marquee"><span>This is text - This is text - This is text - This is text - This is text - This is text - This is text - This is text - This is text - This is text - This is text - This is text</span>
-        <span>This is text - This is text - This is text - This is text - This is text - This is text - This is text - This is text - This is text - This is text - This is text - This is text</span>
+    <p class="marquee">
+      <span
+        >This is text - This is text - This is text - This is text - This is
+        text - This is text - This is text - This is text - This is text - This
+        is text - This is text - This is text</span
+      >
+      <span
+        >This is text - This is text - This is text - This is text - This is
+        text - This is text - This is text - This is text - This is text - This
+        is text - This is text - This is text</span
+      >
     </p>
 
-    <section class="featured my-5 ">
-        <div class="container">
-            <div class="featured-heading">
-                <h2>Featured Products</h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="cloth-1 cloths" style="background-image: url(/asset\ 31.png);">
-                        <button type="button" class="btn btn-light">sale</button>
-                    </div>
-                  <a href="#">OUTBREAK Heavyweight T-shirt</a>
-                  <br>
-                  <a class="price" href="#">Rs. 1499.00 </a>
-                  <a href="#">Rs. 1199.00</a>
-                    
-                </div>
-                <div class="col-sm-3">
-                    <div class="cloth-2 cloths" style="background-image: url(/asset\ 32.png);">
-                        <button type="button" class="btn btn-light">sale</button>
-                    </div>
-                    <a href="#">AESTHETIC AWARENESS VARSITY JACKETx</a>
-                  <br>
-                  <a class="price" href="#">Rs. 1499.00 </a>
-                  <a href="#">Rs. 1199.00</a>
-                </div>
-                <div class="col-sm-3">
-                    <div class="cloth-3 cloths" style="background-image: url(/asset\ 33.png);">
-                        <button type="button" class="btn btn-light">sale</button>
-                    </div>
-                    <a href="#">TRAVIS Oversized T-Shirt</a>
-                  <br>
-                  <a class="price" href="#">Rs. 1499.00 </a>
-                  <a href="#">Rs. 1199.00</a>
-                </div>
-                <div class="col-sm-3">
-                    <div class="cloth-4 cloths" style="background-image: url(/asset\ 34.png);">
-                        <button type="button" class="btn btn-light">sale</button>
-                    </div>
-                    <a href="#">STRANGE PLEASURES Unisex Cargo</a>
-                  <br>
-                  <a class="price" href="#">Rs. 1499.00 </a>
-                  <a href="#">Rs. 1199.00</a> 
-                </div>
-            </div>
-
-            
-
-            <button type="button" class="btn btn-dark view-btn">View all</button>
-            
-            
+    <section class="featured my-5">
+      <div class="container">
+        <div class="featured-heading">
+          <h2>Featured Products</h2>
         </div>
+        <div class="row">
+          <div class="col-sm-3">
+            <div
+              class="cloth-1 cloths"
+              style="background-image: url(/asset\ 31.png)"
+            >
+              <button type="button" class="btn btn-light">sale</button>
+            </div>
+            <a href="#">OUTBREAK Heavyweight T-shirt</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+          <div class="col-sm-3">
+            <div
+              class="cloth-2 cloths"
+              style="background-image: url(/asset\ 32.png)"
+            >
+              <button type="button" class="btn btn-light">sale</button>
+            </div>
+            <a href="#">AESTHETIC AWARENESS VARSITY JACKETx</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+          <div class="col-sm-3">
+            <div
+              class="cloth-3 cloths"
+              style="background-image: url(/asset\ 33.png)"
+            >
+              <button type="button" class="btn btn-light">sale</button>
+            </div>
+            <a href="#">TRAVIS Oversized T-Shirt</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+          <div class="col-sm-3">
+            <div
+              class="cloth-4 cloths"
+              style="background-image: url(/asset\ 34.png)"
+            >
+              <button type="button" class="btn btn-light">sale</button>
+            </div>
+            <a href="#">STRANGE PLEASURES Unisex Cargo</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-dark view-btn">View all</button>
+      </div>
     </section>
 
     <section class="big-bg">
-       <div class="bg-text">
+      <div class="bg-text">
         <h4>Exclusive Products🎉</h4>
         <p>A brand new exclusive product is launched now, hurry up! Buy Now!</p>
-        <button type="button" class="btn btn-dark view-btn">see now</button>
-       </div>
-
+        <button type="button" class="btn btn-dark view-btn rounded-pill">
+          see now
+        </button>
+      </div>
     </section>
 
-   
-   
-   
+    <section class="best-selling">
+      <div class="container">
+        <div class="bestselling-heading">
+          <h2>Featured Products</h2>
+        </div>
 
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="grid-img-1"></div>
+            <div class="grid-img-2"></div>
 
+            <a href="#"
+              >THE BOTTOM TRENDS <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
 
+          <div class="col-12 col-md-8 col-lg-8 xxx">
+            <div class="grid-img-3"></div>
+            <a href="#">LIQUID Heavy Heavyweight T-shirt</a>
+            <br />
+            <a class="price" href="#">Rs. 1499.00 </a>
+            <a href="#">Rs. 1199.00</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="black_box pt-5">
+      <div class="container">
+        <div class="row text-white pt-3 black_box_inside">
+          <div class="col-12 col-md-12 col-lg-4 box-1">
+            <h1>Shop stylish and exclusive fashion products from just ₹799.</h1>
+          </div>
 
+          <div class="col-12 col-md-12 col-lg-5 box-2">
+            <h3>SPACEOUT Oversized t-shirt</h3>
+            <p>
+              Take a trip to space and awaken the hidden Astrophile within you.
+              This design is available in multiple colors.
+            </p>
+            <p>Rs. 899.00</p>
+            <button type="button" class="btn">View Product</button>
+          </div>
 
+          <div class="col-12 col-md-12 col-lg-3">
+            <!-- <img class="img-fluid  " src="/asset 40.jpeg" alt="cloths"> -->
+            <div class="black_box_img"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="social-media-img mt-5">
+      <div class="container">
+        <div class="insta-feeds">
+          <h2>Our Instagram Feeds</h2>
+          <p>@wtflex.in</p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 col-md-4 insta-1 insta">
+            <div class="insta-logo-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                focusable="false"
+                class="icon icon-instagram"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  fill="currentColor"
+                  d="M8.77 1.58c2.34 0 2.62.01 3.54.05.86.04 1.32.18 1.63.3.41.17.7.35 1.01.66.3.3.5.6.65 1 .12.32.27.78.3 1.64.05.92.06 1.2.06 3.54s-.01 2.62-.05 3.54a4.79 4.79 0 01-.3 1.63c-.17.41-.35.7-.66 1.01-.3.3-.6.5-1.01.66-.31.12-.77.26-1.63.3-.92.04-1.2.05-3.54.05s-2.62 0-3.55-.05a4.79 4.79 0 01-1.62-.3c-.42-.16-.7-.35-1.01-.66-.31-.3-.5-.6-.66-1a4.87 4.87 0 01-.3-1.64c-.04-.92-.05-1.2-.05-3.54s0-2.62.05-3.54c.04-.86.18-1.32.3-1.63.16-.41.35-.7.66-1.01.3-.3.6-.5 1-.65.32-.12.78-.27 1.63-.3.93-.05 1.2-.06 3.55-.06zm0-1.58C6.39 0 6.09.01 5.15.05c-.93.04-1.57.2-2.13.4-.57.23-1.06.54-1.55 1.02C1 1.96.7 2.45.46 3.02c-.22.56-.37 1.2-.4 2.13C0 6.1 0 6.4 0 8.77s.01 2.68.05 3.61c.04.94.2 1.57.4 2.13.23.58.54 1.07 1.02 1.56.49.48.98.78 1.55 1.01.56.22 1.2.37 2.13.4.94.05 1.24.06 3.62.06 2.39 0 2.68-.01 3.62-.05.93-.04 1.57-.2 2.13-.41a4.27 4.27 0 001.55-1.01c.49-.49.79-.98 1.01-1.56.22-.55.37-1.19.41-2.13.04-.93.05-1.23.05-3.61 0-2.39 0-2.68-.05-3.62a6.47 6.47 0 00-.4-2.13 4.27 4.27 0 00-1.02-1.55A4.35 4.35 0 0014.52.46a6.43 6.43 0 00-2.13-.41A69 69 0 008.77 0z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M8.8 4a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.43a2.92 2.92 0 110-5.85 2.92 2.92 0 010 5.85zM13.43 5a1.05 1.05 0 100-2.1 1.05 1.05 0 000 2.1z"
+                ></path>
+              </svg>
+            </div>
+          </div>
 
+          <div class="col-12 col-md-4 col-md-4 insta-2 insta">
+            <div class="insta-logo-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                focusable="false"
+                class="icon icon-instagram"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  fill="currentColor"
+                  d="M8.77 1.58c2.34 0 2.62.01 3.54.05.86.04 1.32.18 1.63.3.41.17.7.35 1.01.66.3.3.5.6.65 1 .12.32.27.78.3 1.64.05.92.06 1.2.06 3.54s-.01 2.62-.05 3.54a4.79 4.79 0 01-.3 1.63c-.17.41-.35.7-.66 1.01-.3.3-.6.5-1.01.66-.31.12-.77.26-1.63.3-.92.04-1.2.05-3.54.05s-2.62 0-3.55-.05a4.79 4.79 0 01-1.62-.3c-.42-.16-.7-.35-1.01-.66-.31-.3-.5-.6-.66-1a4.87 4.87 0 01-.3-1.64c-.04-.92-.05-1.2-.05-3.54s0-2.62.05-3.54c.04-.86.18-1.32.3-1.63.16-.41.35-.7.66-1.01.3-.3.6-.5 1-.65.32-.12.78-.27 1.63-.3.93-.05 1.2-.06 3.55-.06zm0-1.58C6.39 0 6.09.01 5.15.05c-.93.04-1.57.2-2.13.4-.57.23-1.06.54-1.55 1.02C1 1.96.7 2.45.46 3.02c-.22.56-.37 1.2-.4 2.13C0 6.1 0 6.4 0 8.77s.01 2.68.05 3.61c.04.94.2 1.57.4 2.13.23.58.54 1.07 1.02 1.56.49.48.98.78 1.55 1.01.56.22 1.2.37 2.13.4.94.05 1.24.06 3.62.06 2.39 0 2.68-.01 3.62-.05.93-.04 1.57-.2 2.13-.41a4.27 4.27 0 001.55-1.01c.49-.49.79-.98 1.01-1.56.22-.55.37-1.19.41-2.13.04-.93.05-1.23.05-3.61 0-2.39 0-2.68-.05-3.62a6.47 6.47 0 00-.4-2.13 4.27 4.27 0 00-1.02-1.55A4.35 4.35 0 0014.52.46a6.43 6.43 0 00-2.13-.41A69 69 0 008.77 0z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M8.8 4a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.43a2.92 2.92 0 110-5.85 2.92 2.92 0 010 5.85zM13.43 5a1.05 1.05 0 100-2.1 1.05 1.05 0 000 2.1z"
+                ></path>
+              </svg>
+            </div>
+          </div>
 
+          <div class="col-12 col-md-4 col-md-4 insta-3 insta">
+            <div class="insta-logo-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                focusable="false"
+                class="icon icon-instagram"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  fill="currentColor"
+                  d="M8.77 1.58c2.34 0 2.62.01 3.54.05.86.04 1.32.18 1.63.3.41.17.7.35 1.01.66.3.3.5.6.65 1 .12.32.27.78.3 1.64.05.92.06 1.2.06 3.54s-.01 2.62-.05 3.54a4.79 4.79 0 01-.3 1.63c-.17.41-.35.7-.66 1.01-.3.3-.6.5-1.01.66-.31.12-.77.26-1.63.3-.92.04-1.2.05-3.54.05s-2.62 0-3.55-.05a4.79 4.79 0 01-1.62-.3c-.42-.16-.7-.35-1.01-.66-.31-.3-.5-.6-.66-1a4.87 4.87 0 01-.3-1.64c-.04-.92-.05-1.2-.05-3.54s0-2.62.05-3.54c.04-.86.18-1.32.3-1.63.16-.41.35-.7.66-1.01.3-.3.6-.5 1-.65.32-.12.78-.27 1.63-.3.93-.05 1.2-.06 3.55-.06zm0-1.58C6.39 0 6.09.01 5.15.05c-.93.04-1.57.2-2.13.4-.57.23-1.06.54-1.55 1.02C1 1.96.7 2.45.46 3.02c-.22.56-.37 1.2-.4 2.13C0 6.1 0 6.4 0 8.77s.01 2.68.05 3.61c.04.94.2 1.57.4 2.13.23.58.54 1.07 1.02 1.56.49.48.98.78 1.55 1.01.56.22 1.2.37 2.13.4.94.05 1.24.06 3.62.06 2.39 0 2.68-.01 3.62-.05.93-.04 1.57-.2 2.13-.41a4.27 4.27 0 001.55-1.01c.49-.49.79-.98 1.01-1.56.22-.55.37-1.19.41-2.13.04-.93.05-1.23.05-3.61 0-2.39 0-2.68-.05-3.62a6.47 6.47 0 00-.4-2.13 4.27 4.27 0 00-1.02-1.55A4.35 4.35 0 0014.52.46a6.43 6.43 0 00-2.13-.41A69 69 0 008.77 0z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M8.8 4a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.43a2.92 2.92 0 110-5.85 2.92 2.92 0 010 5.85zM13.43 5a1.05 1.05 0 100-2.1 1.05 1.05 0 000 2.1z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-12 col-md-4 col-md-4 insta-4 insta">
+            <div class="insta-logo-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                focusable="false"
+                class="icon icon-instagram"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  fill="currentColor"
+                  d="M8.77 1.58c2.34 0 2.62.01 3.54.05.86.04 1.32.18 1.63.3.41.17.7.35 1.01.66.3.3.5.6.65 1 .12.32.27.78.3 1.64.05.92.06 1.2.06 3.54s-.01 2.62-.05 3.54a4.79 4.79 0 01-.3 1.63c-.17.41-.35.7-.66 1.01-.3.3-.6.5-1.01.66-.31.12-.77.26-1.63.3-.92.04-1.2.05-3.54.05s-2.62 0-3.55-.05a4.79 4.79 0 01-1.62-.3c-.42-.16-.7-.35-1.01-.66-.31-.3-.5-.6-.66-1a4.87 4.87 0 01-.3-1.64c-.04-.92-.05-1.2-.05-3.54s0-2.62.05-3.54c.04-.86.18-1.32.3-1.63.16-.41.35-.7.66-1.01.3-.3.6-.5 1-.65.32-.12.78-.27 1.63-.3.93-.05 1.2-.06 3.55-.06zm0-1.58C6.39 0 6.09.01 5.15.05c-.93.04-1.57.2-2.13.4-.57.23-1.06.54-1.55 1.02C1 1.96.7 2.45.46 3.02c-.22.56-.37 1.2-.4 2.13C0 6.1 0 6.4 0 8.77s.01 2.68.05 3.61c.04.94.2 1.57.4 2.13.23.58.54 1.07 1.02 1.56.49.48.98.78 1.55 1.01.56.22 1.2.37 2.13.4.94.05 1.24.06 3.62.06 2.39 0 2.68-.01 3.62-.05.93-.04 1.57-.2 2.13-.41a4.27 4.27 0 001.55-1.01c.49-.49.79-.98 1.01-1.56.22-.55.37-1.19.41-2.13.04-.93.05-1.23.05-3.61 0-2.39 0-2.68-.05-3.62a6.47 6.47 0 00-.4-2.13 4.27 4.27 0 00-1.02-1.55A4.35 4.35 0 0014.52.46a6.43 6.43 0 00-2.13-.41A69 69 0 008.77 0z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M8.8 4a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.43a2.92 2.92 0 110-5.85 2.92 2.92 0 010 5.85zM13.43 5a1.05 1.05 0 100-2.1 1.05 1.05 0 000 2.1z"
+                ></path>
+              </svg>
+            </div>
+          </div>
 
+          <div class="col-12 col-md-4 col-md-4 insta-5 insta">
+            <div class="insta-logo-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                focusable="false"
+                class="icon icon-instagram"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  fill="currentColor"
+                  d="M8.77 1.58c2.34 0 2.62.01 3.54.05.86.04 1.32.18 1.63.3.41.17.7.35 1.01.66.3.3.5.6.65 1 .12.32.27.78.3 1.64.05.92.06 1.2.06 3.54s-.01 2.62-.05 3.54a4.79 4.79 0 01-.3 1.63c-.17.41-.35.7-.66 1.01-.3.3-.6.5-1.01.66-.31.12-.77.26-1.63.3-.92.04-1.2.05-3.54.05s-2.62 0-3.55-.05a4.79 4.79 0 01-1.62-.3c-.42-.16-.7-.35-1.01-.66-.31-.3-.5-.6-.66-1a4.87 4.87 0 01-.3-1.64c-.04-.92-.05-1.2-.05-3.54s0-2.62.05-3.54c.04-.86.18-1.32.3-1.63.16-.41.35-.7.66-1.01.3-.3.6-.5 1-.65.32-.12.78-.27 1.63-.3.93-.05 1.2-.06 3.55-.06zm0-1.58C6.39 0 6.09.01 5.15.05c-.93.04-1.57.2-2.13.4-.57.23-1.06.54-1.55 1.02C1 1.96.7 2.45.46 3.02c-.22.56-.37 1.2-.4 2.13C0 6.1 0 6.4 0 8.77s.01 2.68.05 3.61c.04.94.2 1.57.4 2.13.23.58.54 1.07 1.02 1.56.49.48.98.78 1.55 1.01.56.22 1.2.37 2.13.4.94.05 1.24.06 3.62.06 2.39 0 2.68-.01 3.62-.05.93-.04 1.57-.2 2.13-.41a4.27 4.27 0 001.55-1.01c.49-.49.79-.98 1.01-1.56.22-.55.37-1.19.41-2.13.04-.93.05-1.23.05-3.61 0-2.39 0-2.68-.05-3.62a6.47 6.47 0 00-.4-2.13 4.27 4.27 0 00-1.02-1.55A4.35 4.35 0 0014.52.46a6.43 6.43 0 00-2.13-.41A69 69 0 008.77 0z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M8.8 4a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.43a2.92 2.92 0 110-5.85 2.92 2.92 0 010 5.85zM13.43 5a1.05 1.05 0 100-2.1 1.05 1.05 0 000 2.1z"
+                ></path>
+              </svg>
+            </div>
+          </div>
 
+          <div class="col-12 col-md-4 col-md-4 insta-6 insta">
+            <div class="insta-logo-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                focusable="false"
+                class="icon icon-instagram"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  fill="currentColor"
+                  d="M8.77 1.58c2.34 0 2.62.01 3.54.05.86.04 1.32.18 1.63.3.41.17.7.35 1.01.66.3.3.5.6.65 1 .12.32.27.78.3 1.64.05.92.06 1.2.06 3.54s-.01 2.62-.05 3.54a4.79 4.79 0 01-.3 1.63c-.17.41-.35.7-.66 1.01-.3.3-.6.5-1.01.66-.31.12-.77.26-1.63.3-.92.04-1.2.05-3.54.05s-2.62 0-3.55-.05a4.79 4.79 0 01-1.62-.3c-.42-.16-.7-.35-1.01-.66-.31-.3-.5-.6-.66-1a4.87 4.87 0 01-.3-1.64c-.04-.92-.05-1.2-.05-3.54s0-2.62.05-3.54c.04-.86.18-1.32.3-1.63.16-.41.35-.7.66-1.01.3-.3.6-.5 1-.65.32-.12.78-.27 1.63-.3.93-.05 1.2-.06 3.55-.06zm0-1.58C6.39 0 6.09.01 5.15.05c-.93.04-1.57.2-2.13.4-.57.23-1.06.54-1.55 1.02C1 1.96.7 2.45.46 3.02c-.22.56-.37 1.2-.4 2.13C0 6.1 0 6.4 0 8.77s.01 2.68.05 3.61c.04.94.2 1.57.4 2.13.23.58.54 1.07 1.02 1.56.49.48.98.78 1.55 1.01.56.22 1.2.37 2.13.4.94.05 1.24.06 3.62.06 2.39 0 2.68-.01 3.62-.05.93-.04 1.57-.2 2.13-.41a4.27 4.27 0 001.55-1.01c.49-.49.79-.98 1.01-1.56.22-.55.37-1.19.41-2.13.04-.93.05-1.23.05-3.61 0-2.39 0-2.68-.05-3.62a6.47 6.47 0 00-.4-2.13 4.27 4.27 0 00-1.02-1.55A4.35 4.35 0 0014.52.46a6.43 6.43 0 00-2.13-.41A69 69 0 008.77 0z"
+                />
+                <path
+                  fill="currentColor"
+                  d="M8.8 4a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm0 7.43a2.92 2.92 0 110-5.85 2.92 2.92 0 010 5.85zM13.43 5a1.05 1.05 0 100-2.1 1.05 1.05 0 000 2.1z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="blogs mt-5">
+      <div class="container text-center">
+        <h2>We are Wtflex</h2>
+        <p>
+          At our heart, YOU are our top priority! Our mission is to bring you
+          the world's most fabulous services <br />
+          and fashion products that you'll absolutely adore. We're here to
+          deliver the very best because you <br />
+          deserve nothing less! Your style, your happiness - that's what drives
+          us!
+        </p>
+        <button type="button" class="btn btn-dark">check out our Blogs</button>
+      </div>
+    </section>
+
+    <section class="emails text-center">
+      <p>Subscribe to our emails</p>
+      <div class="input-group mb-3">
+        <input
+          type="search"
+          class="form-control rounded-pill"
+          placeholder="Email"
+          aria-label="Email"
+          aria-describedby="basic-addon1"
+        />
+        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <a href="#">© 2023, WHAT THE FLEX</a>
+        <a href="#">Refund policy</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms of service</a>
+        <a href="#">Shipping policy</a>
+        <a href="#">Contact information</a>
+      </div>
+    </footer>
 
     <!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

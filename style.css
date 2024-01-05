@@ -5,6 +5,7 @@
 body
 {
     overflow-x: hidden;
+    background-color: #e4e4e4 !important;
 }
 /* -------navigation bar------------------ */
 header .navbar .container-fluid
@@ -61,6 +62,7 @@ header .navbar .container-fluid .icons a>i
     font-family: harshit !important;
     padding-bottom: 20px;
 }
+
 .featured .container .row .col-sm-3 .cloth-1
 {
     background-image: url(/asset\ 15.png);
@@ -248,4 +250,309 @@ header .navbar .container-fluid .icons a>i
     color: grey;
   }
   /* ------------------ */
+  .best-selling .container .bestselling-heading
+  {
+    padding-block: 30px;
+  }
+ .best-selling .container .row .grid-img-1
+ {
+    background-image: url(/asset\ 36.jpeg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+ }
+ .best-selling .container .row .grid-img-2
+ {
+    background-image: url(/asset\ 37.png);
+    height: 47vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 20px;
+   
+ }
  
+ .best-selling .container .row .grid-img-3
+ {
+    background-image: url(/asset\ 38.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+ }
+ .best-selling .container .row .grid-img-3:hover
+ {
+    background-image: url(/asset\ 39.png);
+    
+ }
+ .best-selling .container .row .col-12 a
+ {
+    color: black;
+    text-decoration: none;
+    font-family: harshit;
+    font-size: 1.3rem;
+    font-stretch: 324%;
+    font-weight: 400;
+    margin-left: 13px;
+ }
+ .best-selling .container .row .col-12 a:hover
+ {
+    border-bottom: 1px solid black;
+ }
+ .best-selling .container .row .col-12 .price
+ {
+    font-size: 16px;
+    color: grey;
+    text-decoration: line-through;
+ }
+/* --------------------------------------------- */
+
+
+.black_box .container .black_box_inside
+{
+    background-color: #131313;
+    padding: 0 20px;
+    border-radius: 20px;   
+}
+.black_box .container .row .col-12 .black_box_img 
+{
+    height: 40vh;
+    background-image: url(/asset\ 40.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.black_box .container .row .box-1 h1
+{
+    font-family: 'harshit';
+    font-stretch: 500%;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 58px;
+}
+.black_box .container .row .box-2 h3
+{
+    font-size: 28px;
+}
+.black_box .container .row .box-2 p
+{
+    padding-block: 20px;
+}
+.black_box .container .row .box-2 button
+{
+    background-color: rgb(255, 255, 255);
+    padding: 15px 75px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    color: #131313;
+    transition: all 0.5s ease;
+}
+.black_box .container .row .box-2 button:hover
+{
+    background-color: #131313;
+    color: white;
+}
+/* ------------------------------------------------ */
+.social-media-img .container .insta-feeds
+{
+    padding-block: 40px;
+}
+.social-media-img .container .row .insta-1
+{
+    background-image: url(/asset\ 41.jpeg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.social-media-img .container .row .insta .insta-logo-1
+{
+    height: 100%;
+    width: 106%;
+    background-color: #00000080;
+    margin-left: -10px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.social-media-img .container .row .insta:hover .insta-logo-1
+{
+    
+    opacity: 1;
+    
+}
+.social-media-img .container .row .insta .insta-logo-1>svg
+{
+    transform: translate(-50%, -50%);
+    color: white;
+    height: 72px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+
+
+.social-media-img .container .row .insta-2
+{
+    background-image: url(/asset\ 42.jpeg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.social-media-img .container .row .insta-3
+{
+    background-image: url(/asset\ 43.jpeg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.social-media-img .container .row .insta-4
+{
+    background-image: url(/asset\ 44.jpeg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.social-media-img .container .row .insta-5
+{
+    background-image: url(/asset\ 45.jpeg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.social-media-img .container .row .insta-6
+{
+    background-image: url(/asset\ 46.jpeg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+/* ----------------------------------------------------------- */
+
+.blogs .container h2
+{
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.blogs .container p
+{
+line-height: 27px;
+padding-block: 15px;
+}
+.blogs .container button
+{
+    padding: 11px 35px;
+    border-radius: 30px;
+}
+/* ----------------------------------------------------------------- */
+.emails
+{
+    border-block: 1px solid rgb(187, 185, 185);
+    padding: 32px;
+    margin-top: 6%;
+}
+.emails p
+{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: harshit;
+    font-stretch: 500%;
+    padding-block: 32px
+}
+.emails .input-group
+{
+    width: 27%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+.emails .input-group a>i
+{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-right: 9px;
+    color: #131313;
+}
+/* ------------------------------------------------- */
+footer
+{
+    padding-block: 55px;
+}
+footer .container a
+{
+    color: rgb(139 133 133 / 75%);
+    font-size: 11px;
+    margin: 0 15px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+footer .container a:hover
+{
+    border-bottom: 1px solid grey;
+    color:#131313 ;
+}
+
+
+
+
+
+
+/* ------------------------------------- */
+
+.offcanvas .offcanvas-header button
+{
+    display: block;
+    margin: auto;
+}
+.offcanvas .offcanvas-body input
+{
+    
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 6px 15px;
+}
+
+@media screen and (max-width:767px)
+{
+    .emails .input-group
+    {
+        width: 70%;
+    }  
+    footer 
+    {
+        text-align: center;
+    }
+    .black_box .container .row .box-2 button
+    {
+        padding: 15px 33px;
+    }
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
